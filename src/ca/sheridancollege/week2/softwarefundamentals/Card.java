@@ -27,16 +27,12 @@ public class Card
         value = givenValue;
     }
 
-    /**
-     * @return the suit
-     */
+    
     public String getSuit() {
         return suit;
     }
 
-    /**
-     * @param suit the suit to set
-     */
+  
     public void setSuit(String suit) {
         if(suit.equals("Hearts") || suit.equals("Diamonds")|| suit.equals("Clubs")|| suit.equals("Spades"))
         {
